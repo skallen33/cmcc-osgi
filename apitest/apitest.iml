@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Osmorc" name="OSGi">
+      <configuration manifestGenerationMode="OsmorcControlled" manifestLocation="META-INF/MANIFEST.MF" jarfileLocation="apitest.jar" outputPathType="OsgiOutputPath" bndFileLocation="" bundlorFileLocation="" bundleActivator="com.chinamobile.smartgateway.apitest.ApitestActivator" bundleSymbolicName="apitest" bundleVersion="1.0.0" ignoreFilePattern="" useProjectDefaultManifestFileLocation="false" alwaysRebuildBundleJAR="true" doNotSynchronizeWithMaven="false">
+        <additionalProperties>
+          <property key="Manifest-Version" value="1.0" />
+          <property key="Bundle-Activator" value="com.chinamobile.smartgateway.apitest.ApitestActivator" />
+          <property key="Bundle-ManifestVersion" value="2" />
+          <property key="Bundle-Name" value="apitest" />
+          <property key="Bundle-SymbolicName" value="apitest" />
+          <property key="Bundle-Version" value="1.0.0" />
+          <property key="Import-Package" value="com.chinamobile.smartgateway.apitest,com.chinamobile.smartgateway.apitest.http,com.chinamobile.smartgateway.apitest.util,com.cmcc.apitest,com.cmcc.apitest.util,javax.servlet,javax.servlet.http,org.osgi.framework,org.osgi.service.http,org.osgi.util.tracker" />
+          <property key="Bundle-ClassPath" value="., lib/json-20140107.jar," />
+        </additionalProperties>
+        <additionalJARContents>
+          <entry source="$MODULE_DIR$/src/main/resources" dest="/" />
+          <entry source="$MODULE_DIR$/lib/json-20140107.jar" dest="lib/json-20140107.jar" />
+        </additionalJARContents>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_5">
+    <output url="file://$MODULE_DIR$/target/classes" />
+    <output-test url="file://$MODULE_DIR$/target/test-classes" />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="PROVIDED" name="lib" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="tomcat-web" level="application_server_libraries" />
+    <orderEntry type="library" name="Maven: org.osgi:org.osgi:3.0.0" level="project" />
+    <orderEntry type="library" name="Maven: javax.servlet:javax.servlet-api:3.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.json:json:20140107" level="project" />
+  </component>
+</module>

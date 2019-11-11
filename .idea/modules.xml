@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/apitest/apitest.iml" filepath="$PROJECT_DIR$/apitest/apitest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myOsgiClient/myOsgiClient.iml" filepath="$PROJECT_DIR$/myOsgiClient/myOsgiClient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myOsgiServer/myOsgiServer.iml" filepath="$PROJECT_DIR$/myOsgiServer/myOsgiServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/servletTest/servletTest.iml" filepath="$PROJECT_DIR$/servletTest/servletTest.iml" />
+    </modules>
+  </component>
+</project>
