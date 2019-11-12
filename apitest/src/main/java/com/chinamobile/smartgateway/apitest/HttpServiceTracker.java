@@ -1,5 +1,7 @@
-package com.cmcc.apitest;
+package com.chinamobile.smartgateway.apitest;
 
+import com.chinamobile.smartgateway.apitest.http.WebProc;
+import com.chinamobile.smartgateway.apitest.http.ONTHttpContext;
 import org.osgi.framework.BundleContext;
 import org.osgi.framework.ServiceReference;
 import org.osgi.service.http.HttpService;

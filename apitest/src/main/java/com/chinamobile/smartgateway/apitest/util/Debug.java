@@ -1,4 +1,4 @@
-package com.cmcc.apitest.util;
+package com.chinamobile.smartgateway.apitest.util;
 
 import java.io.BufferedWriter;
 import java.io.File;

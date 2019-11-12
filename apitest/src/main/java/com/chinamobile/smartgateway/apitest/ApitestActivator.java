@@ -1,6 +1,5 @@
 package com.chinamobile.smartgateway.apitest;
 
-import com.cmcc.apitest.HttpServiceTracker;
 import org.osgi.framework.BundleActivator;
 import org.osgi.framework.BundleContext;
 import org.osgi.util.tracker.ServiceTracker;

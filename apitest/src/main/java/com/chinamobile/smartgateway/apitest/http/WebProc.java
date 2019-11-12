@@ -1,7 +1,7 @@
-package com.cmcc.apitest;
+package com.chinamobile.smartgateway.apitest.http;
 
 import com.chinamobile.smartgateway.apitest.http.TestItems;
-import com.cmcc.apitest.util.Debug;
+import com.chinamobile.smartgateway.apitest.util.Debug;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;

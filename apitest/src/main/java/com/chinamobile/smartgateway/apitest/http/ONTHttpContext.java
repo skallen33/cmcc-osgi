@@ -1,4 +1,4 @@
-package com.cmcc.apitest;
+package com.chinamobile.smartgateway.apitest.http;
 
 import org.osgi.framework.Bundle;
 import org.osgi.service.http.HttpContext;

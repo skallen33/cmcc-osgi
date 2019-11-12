@@ -1,7 +1,6 @@
 package com.chinamobile.smartgateway.apitest.util;
 
 import com.chinamobile.smartgateway.apitest.ApitestActivator;
-import com.cmcc.apitest.util.Debug;
 import org.json.JSONException;
 import org.json.JSONObject;
 import org.osgi.framework.BundleContext;

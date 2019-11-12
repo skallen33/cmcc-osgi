@@ -4,7 +4,7 @@
     <facet type="Osmorc" name="OSGi">
       <configuration manifestGenerationMode="OsmorcControlled" manifestLocation="META-INF/MANIFEST.MF" jarfileLocation="apitest.jar" outputPathType="OsgiOutputPath" bndFileLocation="" bundlorFileLocation="" bundleActivator="com.chinamobile.smartgateway.apitest.ApitestActivator" bundleSymbolicName="apitest" bundleVersion="1.0.0" ignoreFilePattern="" useProjectDefaultManifestFileLocation="false" alwaysRebuildBundleJAR="true" doNotSynchronizeWithMaven="false">
         <additionalProperties>
-          <property key="Import-Package" value="com.chinamobile.smartgateway.apitest,com.chinamobile.smartgateway.apitest.http,com.chinamobile.smartgateway.apitest.util,com.cmcc.apitest,com.cmcc.apitest.util,javax.servlet,javax.servlet.http,org.osgi.framework,org.osgi.service.http,org.osgi.util.tracker" />
+          <property key="Import-Package" value="com.chinamobile.smartgateway.apitest,javax.servlet,javax.servlet.http,org.osgi.framework,org.osgi.service.http,org.osgi.util.tracker" />
           <property key="Bundle-ClassPath" value="., lib/json-20140107.jar," />
         </additionalProperties>
         <additionalJARContents>
