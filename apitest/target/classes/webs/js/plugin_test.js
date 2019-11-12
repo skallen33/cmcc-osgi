@@ -1051,7 +1051,7 @@ function processDataText() {
 var cfgHandler = new function() {
 
 	function _getReqJson(cmdType) {
-		if (servletName == "cmcc.cmd")
+		if (servletName == "apitest/cmcc.cmd")
 		{
 			return {
 			"jsonCfg": "{'RPCMethod':'SetPlug-inParameterValues','Plugin_Name':'"+currentPageInst.pluginName+"','ID':123,'Parameter':{'CmdType':'" + cmdType + "'}}"
@@ -1066,7 +1066,7 @@ var cfgHandler = new function() {
 
 	function _formatPostData(postData) {
 		//console_log("请求数据:"+jsonUtil.parseString(postData));
-		if (servletName == "cmcc.cmd")
+		if (servletName == "apitest/cmcc.cmd")
 		{
 			return {
 				"jsonCfg": JSON.stringify(postData) 
