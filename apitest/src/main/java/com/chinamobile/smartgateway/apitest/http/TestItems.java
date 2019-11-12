@@ -1,9 +1,9 @@
 package com.chinamobile.smartgateway.apitest.http;
 
 import com.chinamobile.smartgateway.apitest.util.GlobalData;
-import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
+//import org.json.JSONArray;
+//import org.json.JSONException;
+//import org.json.JSONObject;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -20,7 +20,7 @@ public class TestItems {
         testPackages.add("com.chinamobile.smartgateway.commservices");
         testPackages.add("com.chinamobile.smartgateway.accessservices");
     }
-
+/*
     public static JSONObject getAPITTestTerm()
             throws JSONException
     {
@@ -703,7 +703,7 @@ public class TestItems {
         subjson.put("Method", "Java");
 
         return subjson;
-    }
+    }*/
 
     public static List<String> getTestPackages()
     {

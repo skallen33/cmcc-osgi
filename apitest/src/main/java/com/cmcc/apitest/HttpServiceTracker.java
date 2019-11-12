@@ -1,36 +1,15 @@
 package com.cmcc.apitest;
 
 import org.osgi.framework.BundleContext;
-import org.osgi.framework.Filter;
 import org.osgi.framework.ServiceReference;
 import org.osgi.service.http.HttpService;
 import org.osgi.util.tracker.ServiceTracker;
-import org.osgi.util.tracker.ServiceTrackerCustomizer;
 
 public class HttpServiceTracker extends ServiceTracker {
     public HttpServiceTracker(BundleContext context) {
         super(context, HttpService.class.getName(), null);
     }
 
-    public HttpServiceTracker(BundleContext context, ServiceReference reference,
-                              ServiceTrackerCustomizer customizer) {
-        super(context, reference, customizer);
-    }
-
-    public HttpServiceTracker(BundleContext context, String clazz,
-                              ServiceTrackerCustomizer customizer) {
-        super(context, clazz, customizer);
-    }
-
-    public HttpServiceTracker(BundleContext context, Filter filter,
-                              ServiceTrackerCustomizer customizer) {
-        super(context, filter, customizer);
-    }
-
-    public HttpServiceTracker(BundleContext context, Class clazz,
-                              ServiceTrackerCustomizer customizer) {
-        super(context, clazz, customizer);
-    }
     @Override
     public Object addingService(ServiceReference reference) {
         System.out.println("Add Http Service!");

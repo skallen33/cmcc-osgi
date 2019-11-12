@@ -14,8 +14,18 @@ public class ONTHttpContext implements HttpContext {
         this.m_bundle = bundle;
     }
 
-    public String getMimeType(String name) {
-        return null;
+    public String getMimeType(String file) {
+        if (file.endsWith(".jpg")){
+            return "image/jpeg";
+        } else if (file.endsWith(".png")) {
+            return "image/png";
+        } else if (file.endsWith(".js")) {
+            return "application/javascript";
+        } else if (file.endsWith(".css")) {
+            return "text/css";
+        } else {
+            return "text/html";
+        }
     }
 
     public URL getResource(String name) {

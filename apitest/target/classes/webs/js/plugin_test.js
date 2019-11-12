@@ -1,7 +1,7 @@
 // JavaScript Document
 var currentPageInst = null;
 //var servletName = "";
-var servletName = "cmcc.cmd";
+var servletName = "apitest/cmcc.cmd";
 Page = function() {
 	this.debugEnable = false;
 	// this.timeIntervalHandler = null;
