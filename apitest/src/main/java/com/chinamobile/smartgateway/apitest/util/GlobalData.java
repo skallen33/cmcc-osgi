@@ -2,6 +2,8 @@ package com.chinamobile.smartgateway.apitest.util;
 
 import com.chinamobile.smartgateway.apitest.ApitestActivator;
 import com.cmcc.apitest.util.Debug;
+import org.json.JSONException;
+import org.json.JSONObject;
 import org.osgi.framework.BundleContext;
 
 public class GlobalData
@@ -548,7 +550,7 @@ public class GlobalData
         context = ApitestActivator.getContext();
 
         getWanIndexAndName();
-        /*try
+        try
         {
             getLanDevMac();
         }
@@ -557,7 +559,7 @@ public class GlobalData
             if (Debug.isEnablelog()) {
                 Debug.log("getLanDevMac exception:" + e.getMessage());
             }
-        }*/
+        }
         iniGuestSSIDIndex();
 
         getLanHostIPAndSubmask();
@@ -852,7 +854,7 @@ public class GlobalData
     }
 
     private static void getLanDevMac()
-//            throws JSONException
+            throws JSONException
     {
         /*String hosts = "";
         String gateName = "";
@@ -1004,7 +1006,7 @@ public class GlobalData
         }
         try
         {
-            /*JSONObject obj = new JSONObject(msgContent);
+            JSONObject obj = new JSONObject(msgContent);
             int devId = obj.getInt("DevId");
 
             String devType = obj.getString("DevType");
@@ -1034,7 +1036,7 @@ public class GlobalData
             }
             if (("USB_SERIAL".equals(devType)) || ("USB_CDC_ACM".equals(devType))) {
                 setUsb_serial_devid(devId);
-            }*/
+            }
         }
         catch (Exception e)
         {
