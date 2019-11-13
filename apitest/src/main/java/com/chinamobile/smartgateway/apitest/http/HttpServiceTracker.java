@@ -1,4 +1,4 @@
-package com.chinamobile.smartgateway.apitest;
+package com.chinamobile.smartgateway.apitest.http;
 
 import com.chinamobile.smartgateway.apitest.http.WebProc;
 import com.chinamobile.smartgateway.apitest.http.ONTHttpContext;
@@ -18,7 +18,7 @@ public class HttpServiceTracker extends ServiceTracker {
         HttpService httpService = (HttpService) this.context.getService(reference);
         try {
             httpService.registerResources("/apitest", "/webs",  new ONTHttpContext(this.context.getBundle()));
-            httpService.registerServlet("/apitest/cmcc.cmd", new WebProc(), null, null);
+            httpService.registerServlet("/apitest/cmcc.cmd", new WebProc(this.context), null, null);
         } catch (Exception e) {
             e.printStackTrace();
         }
