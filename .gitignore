@@ -1,3 +1,8 @@
 /out/run.osgi/felix-cache
 */target
 *.class
+/apitest/target
+/myOsgiServer/target
+/myOsgiClient/target
+/servletTest/target
+/out

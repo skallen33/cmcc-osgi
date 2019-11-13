@@ -2,23 +2,68 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb139495-075a-4f27-b0d2-ea352ed9e493" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apitest/src/main/java/com/chinamobile/smartgateway/apitest/ApitestActivator.java" beforeDir="false" afterPath="$PROJECT_DIR$/apitest/src/main/java/com/chinamobile/smartgateway/apitest/ApitestActivator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apitest/src/main/java/com/chinamobile/smartgateway/apitest/HttpServiceTracker.java" beforeDir="false" afterPath="$PROJECT_DIR$/apitest/src/main/java/com/chinamobile/smartgateway/apitest/http/HttpServiceTracker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apitest/src/main/java/com/chinamobile/smartgateway/apitest/http/WebProc.java" beforeDir="false" afterPath="$PROJECT_DIR$/apitest/src/main/java/com/chinamobile/smartgateway/apitest/http/WebProc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/bundles/apitest.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/bundles/apitest.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/run.osgi/felix-cache/bundle1/bundle.info" beforeDir="false" afterPath="$PROJECT_DIR$/out/run.osgi/felix-cache/bundle1/bundle.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/run.osgi/felix-cache/bundle10/bundle.info" beforeDir="false" afterPath="$PROJECT_DIR$/out/run.osgi/felix-cache/bundle10/bundle.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/run.osgi/felix-cache/bundle11/bundle.info" beforeDir="false" afterPath="$PROJECT_DIR$/out/run.osgi/felix-cache/bundle11/bundle.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/run.osgi/felix-cache/bundle2/bundle.info" beforeDir="false" afterPath="$PROJECT_DIR$/out/run.osgi/felix-cache/bundle2/bundle.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/run.osgi/felix-cache/bundle3/bundle.info" beforeDir="false" afterPath="$PROJECT_DIR$/out/run.osgi/felix-cache/bundle3/bundle.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/run.osgi/felix-cache/bundle4/bundle.info" beforeDir="false" afterPath="$PROJECT_DIR$/out/run.osgi/felix-cache/bundle4/bundle.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/run.osgi/felix-cache/bundle5/bundle.info" beforeDir="false" afterPath="$PROJECT_DIR$/out/run.osgi/felix-cache/bundle5/bundle.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/run.osgi/felix-cache/bundle6/bundle.info" beforeDir="false" afterPath="$PROJECT_DIR$/out/run.osgi/felix-cache/bundle6/bundle.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/run.osgi/felix-cache/bundle7/bundle.info" beforeDir="false" afterPath="$PROJECT_DIR$/out/run.osgi/felix-cache/bundle7/bundle.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/run.osgi/felix-cache/bundle8/bundle.info" beforeDir="false" afterPath="$PROJECT_DIR$/out/run.osgi/felix-cache/bundle8/bundle.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/run.osgi/felix-cache/bundle9/bundle.info" beforeDir="false" afterPath="$PROJECT_DIR$/out/run.osgi/felix-cache/bundle9/bundle.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/run.osgi/felix-cache/bundle9/version0.0/bundle.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/run.osgi/felix-cache/bundle9/version0.0/bundle.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apitest/target/bundles/json-20140107.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apitest/target/bundles/org.osgi-3.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apitest/target/classes/com/chinamobile/smartgateway/apitest/ApitestActivator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apitest/target/classes/com/chinamobile/smartgateway/apitest/http/TestItems.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apitest/target/classes/com/chinamobile/smartgateway/apitest/util/GlobalData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apitest/target/classes/webs/css/plugin_test.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apitest/target/classes/webs/index.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apitest/target/classes/webs/js/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apitest/target/classes/webs/js/jsformat.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apitest/target/classes/webs/js/json2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apitest/target/classes/webs/js/plugin_test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apitest/target/classes/webs/mobile.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myOsgiClient/target/bundles/jstl-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myOsgiClient/target/bundles/org.osgi-3.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myOsgiClient/target/classes/com/cmcc/client/ClinetActivator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myOsgiServer/target/bundles/jstl-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myOsgiServer/target/bundles/org.osgi-3.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myOsgiServer/target/classes/com/cmcc/service/HelloService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myOsgiServer/target/classes/com/cmcc/service/HelloServiceActivator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myOsgiServer/target/classes/com/cmcc/service/HelloServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myOsgiServer/target/classes/com/cmcc/servlet/ServletActivator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myOsgiServer/target/myBundle-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/bundles/apitest.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/bundles/myOsgiClient-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/bundles/myOsgiServer-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/bundles/servletTest.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/run.osgi/-Dorg.osgi.service.http.port=8080/bundle0/bundle.id" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/run.osgi/-Dorg.osgi.service.http.port=8080/bundle0/last.java.version" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/run.osgi/-Dorg.osgi.service.http.port=8080/bundle1/bundle.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/run.osgi/-Dorg.osgi.service.http.port=8080/bundle1/version0.0/bundle.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/run.osgi/-Dorg.osgi.service.http.port=8080/bundle1/version0.0/revision.location" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/run.osgi/-Dorg.osgi.service.http.port=8080/bundle2/bundle.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/run.osgi/-Dorg.osgi.service.http.port=8080/bundle2/version0.0/bundle.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/run.osgi/-Dorg.osgi.service.http.port=8080/bundle2/version0.0/revision.location" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/run.osgi/-Dorg.osgi.service.http.port=8080/bundle3/bundle.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/run.osgi/-Dorg.osgi.service.http.port=8080/bundle3/version0.0/bundle.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/run.osgi/-Dorg.osgi.service.http.port=8080/bundle3/version0.0/revision.location" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/run.osgi/-Dorg.osgi.service.http.port=8080/bundle4/bundle.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/run.osgi/-Dorg.osgi.service.http.port=8080/bundle4/version0.0/bundle.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/run.osgi/-Dorg.osgi.service.http.port=8080/bundle4/version0.0/revision.location" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/run.osgi/-Dorg.osgi.service.http.port=8080/bundle5/bundle.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/run.osgi/-Dorg.osgi.service.http.port=8080/bundle5/version0.0/bundle.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/run.osgi/-Dorg.osgi.service.http.port=8080/bundle5/version0.0/revision.location" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/run.osgi/-Dorg.osgi.service.http.port=8080/bundle6/bundle.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/run.osgi/-Dorg.osgi.service.http.port=8080/bundle6/version0.0/bundle.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/run.osgi/-Dorg.osgi.service.http.port=8080/bundle6/version0.0/revision.location" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/run.osgi/-Dorg.osgi.service.http.port=8080/bundle7/bundle.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/run.osgi/-Dorg.osgi.service.http.port=8080/bundle7/version0.0/bundle.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/run.osgi/-Dorg.osgi.service.http.port=8080/bundle7/version0.0/revision.location" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/run.osgi/-Dorg.osgi.service.http.port=8080/bundle8/bundle.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/run.osgi/-Dorg.osgi.service.http.port=8080/bundle8/version0.0/bundle.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/run.osgi/-Dorg.osgi.service.http.port=8080/bundle8/version0.0/revision.location" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/run.osgi/-Dorg.osgi.service.http.port=8080/cache.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/run.osgi/felix-cache/bundle0/bundle.id" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/run.osgi/felix-cache/bundle0/last.java.version" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/run.osgi/felix-cache/bundle1/bundle.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/servletTest/target/bundles/org.osgi-3.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/servletTest/target/bundles/servlet-api-6.0.29.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/servletTest/target/classes/com/cmcc/servlet/LoginServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/servletTest/target/classes/com/cmcc/servlet/SevletTestActivator$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/servletTest/target/classes/com/cmcc/servlet/SevletTestActivator.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/myBundle/target/" />
@@ -142,7 +187,7 @@
         <entry file="file://$PROJECT_DIR$/apitest/src/main/java/com/chinamobile/smartgateway/apitest/http/WebProc.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="389">
-              <caret line="119" column="26" lean-forward="true" selection-start-line="119" selection-start-column="26" selection-end-line="119" selection-end-column="26" />
+              <caret line="119" column="26" selection-start-line="119" selection-start-column="26" selection-end-line="119" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -150,11 +195,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apitest/src/main/java/com/chinamobile/smartgateway/apitest/util/Debug.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1344">
-              <caret line="39" column="78" lean-forward="true" selection-start-line="39" selection-start-column="78" selection-end-line="39" selection-end-column="78" />
+            <state relative-caret-position="294">
+              <caret line="117" column="9" selection-start-line="117" selection-start-column="9" selection-end-line="117" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -163,7 +208,7 @@
         <entry file="file://$PROJECT_DIR$/apitest/src/main/java/com/chinamobile/smartgateway/apitest/ApitestActivator.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -175,7 +220,7 @@
         <entry file="file://$PROJECT_DIR$/apitest/src/main/java/com/chinamobile/smartgateway/apitest/http/ExecuteThread.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="332">
-              <caret line="155" column="43" lean-forward="true" selection-start-line="155" selection-start-column="43" selection-end-line="155" selection-end-column="43" />
+              <caret line="155" column="43" selection-start-line="155" selection-start-column="43" selection-end-line="155" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1763#1764#0" expanded="true" />
@@ -194,11 +239,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/apitest/src/main/java/com/chinamobile/smartgateway/apitest/http/lantask/EthQueryTask.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="67">
+              <caret line="12" column="25" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -210,7 +255,7 @@
         <entry file="file://$PROJECT_DIR$/apitest/src/main/java/com/chinamobile/smartgateway/apitest/http/task/TestTaskFactory.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="231">
-              <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+              <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -359,7 +404,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
@@ -492,7 +537,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="F:/soft/androidsdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573630536090" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573630559324" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/apitest/src/main/java/com/chinamobile/smartgateway/apitest/http" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/apitest/lib/json-20140107.jar" />
@@ -588,15 +633,15 @@
       <workItem from="1571965703041" duration="17702000" />
       <workItem from="1572226114797" duration="4521000" />
       <workItem from="1572252237143" duration="32197000" />
-      <workItem from="1573182102473" duration="39862000" />
+      <workItem from="1573182102473" duration="40132000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96189000" />
+    <option name="totallyTimeSpent" value="96459000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.20735608" />
@@ -1088,7 +1133,7 @@
     <entry file="file://$PROJECT_DIR$/apitest/src/main/java/com/chinamobile/smartgateway/apitest/http/task/TestTaskFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
-          <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1098,7 +1143,7 @@
     <entry file="file://$PROJECT_DIR$/apitest/src/main/java/com/chinamobile/smartgateway/apitest/ApitestActivator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1112,20 +1157,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apitest/src/main/java/com/chinamobile/smartgateway/apitest/http/lantask/EthQueryTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apitest/src/main/java/com/chinamobile/smartgateway/apitest/http/ExecuteThread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="332">
-          <caret line="155" column="43" lean-forward="true" selection-start-line="155" selection-start-column="43" selection-end-line="155" selection-end-column="43" />
+          <caret line="155" column="43" selection-start-line="155" selection-start-column="43" selection-end-line="155" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1763#1764#0" expanded="true" />
@@ -1137,7 +1172,7 @@
     <entry file="file://$PROJECT_DIR$/apitest/src/main/java/com/chinamobile/smartgateway/apitest/http/WebProc.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="389">
-          <caret line="119" column="26" lean-forward="true" selection-start-line="119" selection-start-column="26" selection-end-line="119" selection-end-column="26" />
+          <caret line="119" column="26" selection-start-line="119" selection-start-column="26" selection-end-line="119" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1146,8 +1181,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/apitest/src/main/java/com/chinamobile/smartgateway/apitest/util/Debug.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1344">
-          <caret line="39" column="78" lean-forward="true" selection-start-line="39" selection-start-column="78" selection-end-line="39" selection-end-column="78" />
+        <state relative-caret-position="294">
+          <caret line="117" column="9" selection-start-line="117" selection-start-column="9" selection-end-line="117" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apitest/src/main/java/com/chinamobile/smartgateway/apitest/http/lantask/EthQueryTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="67">
+          <caret line="12" column="25" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
