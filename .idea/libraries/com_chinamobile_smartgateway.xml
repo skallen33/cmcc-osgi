@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="com.chinamobile.smartgateway">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/apitest/lib/com.chinamobile.smartgateway.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
