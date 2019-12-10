@@ -32,15 +32,17 @@ public class ONTHttpContext implements HttpContext {
     public URL getResource(String name) {
         Debug.log("getResource:"+name);
         String resource = name;
-        if ((name.equals("/webs")) || (name.equals("/webs/index.html"))) {
+        if ((name.equals("/webs")) || (name.equals("webs/")) || (name.equals("/webs/index.html"))) {
             resource = "webs/index.htm";
         }
         if (resource.startsWith("/")) {
             resource = name.substring(1);
         }
         URL url = this.m_bundle.getResource(resource);
+        Debug.log("url1:"+url);
         if (url == null) {
             url = getClass().getResource(resource);
+            Debug.log("url2:"+url);
         }
         return url;
     }

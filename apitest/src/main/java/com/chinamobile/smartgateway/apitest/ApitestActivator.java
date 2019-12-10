@@ -49,13 +49,13 @@ public class ApitestActivator implements BundleActivator {
 //            serviceTracker = new HttpServiceTracker(context);
 //            serviceTracker.open();
 
-            serviceTracker = new ServiceTracker(context, UsbService.class.getName(), null);
-            serviceTracker.open();
-
-            UsbService usbService = (UsbService)serviceTracker.getService();
-            if (usbService != null) {
-                usbService.usbRegister(bundleContext, 15);
-            }
+//            serviceTracker = new ServiceTracker(context, UsbService.class.getName(), null);
+//            serviceTracker.open();
+//
+//            UsbService usbService = (UsbService)serviceTracker.getService();
+//            if (usbService != null) {
+//                usbService.usbRegister(bundleContext, 15);
+//            }
 //            new GlobalData(bundleContext);
 //
 //            GlobalData.initialGlobalData();
@@ -86,10 +86,10 @@ public class ApitestActivator implements BundleActivator {
         Debug.log("apitest plugin stop");
         if (serviceTracker != null)
         {
-            UsbService usbService = (UsbService)serviceTracker.getService();
-            if (usbService != null) {
-                usbService.usbUnregister(bundleContext);
-            }
+//            UsbService usbService = (UsbService)serviceTracker.getService();
+//            if (usbService != null) {
+//                usbService.usbUnregister(bundleContext);
+//            }
             serviceTracker.close();
         }
         if (httpServiceTracker != null)
