@@ -4,10 +4,12 @@ import com.chinamobile.smartgateway.apitest.http.WebProc;
 import com.chinamobile.smartgateway.apitest.http.task.TestTask;
 //import com.chinamobile.smartgateway.apitest.http.task.lantask.BaseTestTask;
 import com.chinamobile.smartgateway.apitest.util.Debug;
+import com.chinamobile.smartgateway.lanservices.EthQueryService;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 import org.osgi.framework.BundleContext;
+import org.osgi.util.tracker.ServiceTracker;
 //import org.osgi.util.tracker.ServiceTracker;
 
 public class EthQueryTask
@@ -17,27 +19,32 @@ public class EthQueryTask
     public TestTask.TestStatus run(BundleContext context, JSONObject testItem)
             throws JSONException
     {
-//        ServiceTracker<?, ?> serviceTracker = new ServiceTracker(context, EthQueryService.class.getName(), null);
-//        serviceTracker.open();
+        Debug.log("EthQueryTask start run");
+//        Debug.log("context:"+context);
+        ServiceTracker serviceTracker = new ServiceTracker(context, EthQueryService.class.getName(), null);
+//        Debug.log("serviceTracker:"+serviceTracker);
+        serviceTracker.open();
 
         JSONObject json = null;
         String subName = null;
+        Debug.log("testItem:"+testItem.toString());
         JSONArray subItemArray = testItem.getJSONArray("SubItems");
+        Debug.log("subItemArray:"+subItemArray.toString());
         TestTask.TestStatus status = TestTask.TestStatus.SUCC;
         String result = "";
         for (int i = 0; i < subItemArray.length(); i++)
         {
             json = subItemArray.getJSONObject(i);
-
+            Debug.log("json:"+json.toString());
             JSONObject f_respJson = new JSONObject();
             subName = json.getString("Name");
             f_respJson.put("Name", subName);
             if (Debug.isEnablelog()) {
-                Debug.log("EthQueryTask Test");
+                Debug.log("EthQueryTask Test:"+json.toString());
             }
             if (subName.equals("EthQueryTask Test"))
             {
-                /*EthQueryService service = (EthQueryService)serviceTracker.getService();
+                EthQueryService service = (EthQueryService)serviceTracker.getService();
                 JSONObject subInput = json.getJSONObject("InputParam");
                 if (service != null)
                 {
@@ -114,15 +121,15 @@ public class EthQueryTask
                     f_respJson.put("FailReason", "get EthQueryService Failed");
                     f_respJson.put("ActualOutputParam", "get EthQueryService Failed");
                     f_respJson.put("Result", status.getValue());
-                }*/
-                StringBuffer sBuffer = new StringBuffer();
+                }
+                /*StringBuffer sBuffer = new StringBuffer();
                 sBuffer.append("Enable:").append("Enable11").append("<br/>");
                 sBuffer.append("Status:").append("Status22").append("<br/>");
                 sBuffer.append("BitRate:").append("BitRate33").append("<br/>");
                 sBuffer.append("DuplexMode:").append("DuplexMode44").append("<br/>");
                 f_respJson.put("FailReason", "");
                 f_respJson.put("ActualOutputParam", sBuffer.toString());
-                f_respJson.put("Result", status.getValue());
+                f_respJson.put("Result", status.getValue());*/
             }
             else
             {
@@ -133,6 +140,7 @@ public class EthQueryTask
             WebProc.pushResult(f_respJson.toString());
         }
 //        serviceTracker.close();
+        Debug.log("EthQueryTask finish run");
         return TestTask.TestStatus.SUCC;
     }
 }

@@ -1,7 +1,6 @@
 package com.chinamobile.smartgateway.apitest.http;
 
-import com.chinamobile.smartgateway.apitest.http.WebProc;
-import com.chinamobile.smartgateway.apitest.http.ONTHttpContext;
+import com.chinamobile.smartgateway.apitest.util.Debug;
 import org.osgi.framework.BundleContext;
 import org.osgi.framework.ServiceReference;
 import org.osgi.service.http.HttpService;
@@ -14,19 +13,19 @@ public class HttpServiceTracker extends ServiceTracker {
 
     @Override
     public Object addingService(ServiceReference reference) {
-        System.out.println("Add Http Service!");
+        Debug.log("Add Http Service!");
         HttpService httpService = (HttpService) this.context.getService(reference);
         try {
             httpService.registerResources("/apitest", "/webs",  new ONTHttpContext(this.context.getBundle()));
             httpService.registerServlet("/apitest/cmcc.cmd", new WebProc(this.context), null, null);
         } catch (Exception e) {
-            e.printStackTrace();
+            Debug.log(e);
         }
         return httpService;
     }
     @Override
     public void removedService(ServiceReference reference, Object service) {
-        System.out.println("Remove Http Service!");
+        Debug.log("Remove Http Service!");
         HttpService httpService = (HttpService) service;
         try {
             httpService.unregister("/apitest/cmcc.cmd");
@@ -34,7 +33,7 @@ public class HttpServiceTracker extends ServiceTracker {
 
             super.removedService(reference, service);
         } catch (Exception e) {
-            e.printStackTrace();
+            Debug.log(e);
         }
     }
 

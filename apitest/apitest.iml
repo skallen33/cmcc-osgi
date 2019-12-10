@@ -4,12 +4,13 @@
     <facet type="Osmorc" name="OSGi">
       <configuration manifestGenerationMode="OsmorcControlled" manifestLocation="META-INF/MANIFEST.MF" jarfileLocation="apitest.jar" outputPathType="OsgiOutputPath" bndFileLocation="" bundlorFileLocation="" bundleActivator="com.chinamobile.smartgateway.apitest.ApitestActivator" bundleSymbolicName="apitest" bundleVersion="1.0.0" ignoreFilePattern="" useProjectDefaultManifestFileLocation="false" alwaysRebuildBundleJAR="true" doNotSynchronizeWithMaven="false">
         <additionalProperties>
-          <property key="Import-Package" value="com.chinamobile.smartgateway.apitest,javax.servlet,javax.servlet.http,org.osgi.framework,org.osgi.service.http,org.osgi.util.tracker,org.json" />
-          <property key="Bundle-ClassPath" value="., lib/json-20140107.jar," />
+          <property key="Import-Package" value="com.chinamobile.smartgateway.apitest,javax.servlet,javax.servlet.http,org.osgi.framework,org.osgi.service.http,org.osgi.util.tracker,org.json,com.chinamobile.smartgateway.accessservices,com.chinamobile.smartgateway.addressservices,com.chinamobile.smartgateway.commservices,com.chinamobile.smartgateway.lanservices,com.chinamobile.smartgateway.mangement,com.chinamobile.smartgateway.transferservices,com.chinamobile.smartgateway.voipservices" />
+          <property key="Bundle-ClassPath" value="., lib/json-20140107.jar,lib/com.chinamobile.smartgateway.jar" />
         </additionalProperties>
         <additionalJARContents>
           <entry source="$MODULE_DIR$/src/main/resources" dest="/" />
           <entry source="$MODULE_DIR$/lib/json-20140107.jar" dest="lib/json-20140107.jar" />
+          <entry source="$MODULE_DIR$/lib/com.chinamobile.smartgateway.jar" dest="lib/com.chinamobile.smartgateway.jar" />
         </additionalJARContents>
       </configuration>
     </facet>
@@ -30,5 +31,6 @@
     <orderEntry type="library" name="Maven: org.osgi:org.osgi:3.0.0" level="project" />
     <orderEntry type="library" name="Maven: javax.servlet:javax.servlet-api:3.0.1" level="project" />
     <orderEntry type="library" name="Maven: org.json:json:20180813" level="project" />
+    <orderEntry type="library" name="com.chinamobile.smartgateway" level="project" />
   </component>
 </module>

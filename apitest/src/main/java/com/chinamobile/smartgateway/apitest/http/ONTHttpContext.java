@@ -1,5 +1,6 @@
 package com.chinamobile.smartgateway.apitest.http;
 
+import com.chinamobile.smartgateway.apitest.util.Debug;
 import org.osgi.framework.Bundle;
 import org.osgi.service.http.HttpContext;
 
@@ -29,6 +30,7 @@ public class ONTHttpContext implements HttpContext {
     }
 
     public URL getResource(String name) {
+        Debug.log("getResource:"+name);
         String resource = name;
         if ((name.equals("/webs")) || (name.equals("/webs/index.html"))) {
             resource = "webs/index.htm";

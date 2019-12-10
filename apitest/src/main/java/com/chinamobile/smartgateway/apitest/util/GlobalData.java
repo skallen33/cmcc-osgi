@@ -556,7 +556,7 @@ public class GlobalData
         catch (JSONException e)
         {
             if (Debug.isEnablelog()) {
-                Debug.log("getLanDevMac exception:" + e.getMessage());
+                Debug.log(e);
             }
         }
         iniGuestSSIDIndex();
@@ -586,8 +586,7 @@ public class GlobalData
                 catch (Throwable e)
                 {
                     if (Debug.isEnablelog()) {
-                        Debug.log(
-                                "getPasswordRegistrationInfo:" + e.getMessage());
+                        Debug.log(e);
                     }
                     return;
                 }
@@ -607,7 +606,7 @@ public class GlobalData
                 catch (Exception e)
                 {
                     if (Debug.isEnablelog()) {
-                        Debug.log(e.getMessage());
+                        Debug.log(e);
                     }
                 }
             }
@@ -669,7 +668,7 @@ public class GlobalData
             catch (Exception e)
             {
                 if (Debug.isEnablelog()) {
-                    Debug.log(e.getMessage());
+                    Debug.log(e);
                 }
             }
         }
@@ -687,7 +686,7 @@ public class GlobalData
             catch (Exception e)
             {
                 if (Debug.isEnablelog()) {
-                    Debug.log(e.getMessage());
+                    Debug.log(e);
                 }
             }
         }
@@ -705,7 +704,7 @@ public class GlobalData
             catch (Exception e)
             {
                 if (Debug.isEnablelog()) {
-                    Debug.log(e.getMessage());
+                    Debug.log(e);
                 }
             }
         }*/
@@ -776,7 +775,7 @@ public class GlobalData
             catch (Exception e)
             {
                 if (Debug.isEnablelog()) {
-                    Debug.log(e.getMessage());
+                    Debug.log(e);
                 }
             }
         }*/
@@ -823,7 +822,7 @@ public class GlobalData
             catch (Exception e)
             {
                 if (Debug.isEnablelog()) {
-                    Debug.log(e.getMessage());
+                    Debug.log(e);
                 }
             }
         }
@@ -846,7 +845,7 @@ public class GlobalData
             catch (Exception e)
             {
                 if (Debug.isEnablelog()) {
-                    Debug.log(e.getMessage());
+                    Debug.log(e);
                 }
             }
         }*/
@@ -906,7 +905,7 @@ public class GlobalData
                 catch (JSONException e)
                 {
                     if (Debug.isEnablelog()) {
-                        Debug.log(e.getMessage());
+                        Debug.log(e);
                     }
                 }
             }
@@ -989,7 +988,7 @@ public class GlobalData
             catch (JSONException e)
             {
                 if (Debug.isEnablelog()) {
-                    Debug.log(e.getMessage());
+                    Debug.log(e);
                 }
             }
         }*/
@@ -1040,7 +1039,7 @@ public class GlobalData
         catch (Exception e)
         {
             if (Debug.isEnablelog()) {
-                Debug.log(e.getMessage());
+                Debug.log(e);
             }
             return "";
         }

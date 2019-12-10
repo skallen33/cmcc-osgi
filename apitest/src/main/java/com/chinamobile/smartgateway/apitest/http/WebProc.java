@@ -67,7 +67,7 @@ public class WebProc extends HttpServlet
         catch (JSONException e)
         {
             if (Debug.isEnablelog()) {
-                Debug.log("JSONObject:" + e.toString());
+                Debug.log(e);
             }
             ps.write(e.toString().getBytes("utf-8"));
             return;
@@ -128,7 +128,7 @@ public class WebProc extends HttpServlet
             }
             catch (JSONException e)
             {
-                Debug.log(e.getMessage() + "---------");
+                Debug.log(e);
             }
         }
         if (Debug.isEnablelog()) {
@@ -184,7 +184,7 @@ public class WebProc extends HttpServlet
         catch (JSONException e)
         {
             if (Debug.isEnablelog()) {
-                Debug.log("getRespJsonObj:" + e.toString());
+                Debug.log(e);
             }
         }
         return respJson;
@@ -209,7 +209,7 @@ public class WebProc extends HttpServlet
                     catch (JSONException e)
                     {
                         if (Debug.isEnablelog()) {
-                            Debug.log("getAllRespResultJsons:" + e.toString());
+                            Debug.log(e);
                         }
                     }
                 }

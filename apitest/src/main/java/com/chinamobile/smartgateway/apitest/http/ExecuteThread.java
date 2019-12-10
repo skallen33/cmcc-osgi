@@ -25,9 +25,9 @@ public class ExecuteThread
         return _context;
     }
 
-    public static void set_context(BundleContext _context)
+    public static void set_context(BundleContext context)
     {
-        _context = _context;
+        _context = context;
     }
 
     public JSONObject getJsonObj()
@@ -156,7 +156,7 @@ public class ExecuteThread
                     catch (JSONException e)
                     {
                         if (Debug.isEnablelog()) {
-                            Debug.log("executeTestTerm:" + e.toString());
+                            Debug.log(e);
                         }
                         this.bigTeamResult = TestTask.TestStatus.FAIL.getValue();
                         JSONObject testItem = this.jsonObj.getJSONObject("TestItem");
@@ -172,9 +172,9 @@ public class ExecuteThread
                     notifyAll();
                 }
             }
-            catch (Throwable localThrowable)
+            catch (Throwable e)
             {
-                Debug.log("Throwable:" + localThrowable.toString());
+                Debug.log(e);
             }
         }
     }
